@@ -5,5 +5,5 @@ import axios from "axios";
 // });
 
 export default axios.create({
-  baseURL: "https://ecommerce-app-dusky.vercel.app",
+  baseURL: "https://ecommerce-app-sijj.onrender.com",
 });

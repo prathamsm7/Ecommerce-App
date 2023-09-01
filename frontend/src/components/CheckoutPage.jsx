@@ -85,7 +85,7 @@ const CheckoutPage = () => {
         currency: "INR",
       };
       const data = await fetch(
-        `https://ecommerce-app-dusky.vercel.app/api/payment/pay`,
+        `https://ecommerce-app-sijj.onrender.com/api/payment/pay`,
         {
           method: "POST",
           headers: {
@@ -126,7 +126,7 @@ const CheckoutPage = () => {
           };
 
           const result = await axios
-            .post(`https://ecommerce-app-dusky.vercel.app/api/payment`, {
+            .post(`https://ecommerce-app-sijj.onrender.com/api/payment`, {
               order,
               Orderdata,
             })
